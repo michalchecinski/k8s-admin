@@ -12,6 +12,8 @@ k3sup --help
 export IP=192.168.1.200
 
 k3sup install --ip $IP --user michal --no-extras
+OR
+k3sup install --ip $IP --user michal --k3s-extra-args '--disable=servicelb --disable=traefik'
 ```
 
 ```
